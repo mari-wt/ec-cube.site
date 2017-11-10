@@ -1,0 +1,55 @@
+# duplicated
+root: /html/ # root_urlpath
+admin_dir: admin/ # admin_route
+tpl: /html/user_data/packages/default/ # front_urlpath
+admin_tpl: /html/user_data/packages/admin/ # admin_urlpath
+image_path: /html/upload/save_image/ # image_save_urlpath
+
+# base valiables
+root_dir: /vagrant/myDev/ec-cube.site
+root_urlpath: /html
+template_code: default
+
+# routing
+admin_route: admin
+user_data_route: user_data
+
+# public directory
+public_path: /html
+public_path_realdir: /vagrant/myDev/ec-cube.site/html
+
+# realdir::image
+image_save_realdir: /vagrant/myDev/ec-cube.site/html/upload/save_image
+image_temp_realdir: /vagrant/myDev/ec-cube.site/html/upload/temp_image
+
+# realdir::user_data
+user_data_realdir: /vagrant/myDev/ec-cube.site/html/user_data
+
+# realdir::block
+block_default_realdir: /vagrant/myDev/ec-cube.site/src/Eccube/Resource/template/default/Block
+block_realdir: /vagrant/myDev/ec-cube.site/app/template/default/Block
+
+# realdir::template
+template_default_realdir: /vagrant/myDev/ec-cube.site/src/Eccube/Resource/template/default
+template_default_html_realdir: /vagrant/myDev/ec-cube.site/html/template/default
+template_admin_realdir: /vagrant/myDev/ec-cube.site/src/Eccube/Resource/template/admin
+template_admin_html_realdir: /vagrant/myDev/ec-cube.site/html/template/admin
+template_realdir: /vagrant/myDev/ec-cube.site/app/template/default
+template_html_realdir: /vagrant/myDev/ec-cube.site/html/template/default
+template_temp_realdir: /vagrant/myDev/ec-cube.site/app/cache/eccube/template
+
+# realdir::csv
+csv_temp_realdir: /vagrant/myDev/ec-cube.site/app/cache/eccube/csv
+
+# realdir:plugin
+plugin_realdir: /vagrant/myDev/ec-cube.site/app/Plugin
+plugin_temp_realdir: /vagrant/myDev/ec-cube.site/app/cache/plugin
+plugin_html_realdir: /vagrant/myDev/ec-cube.site/html/plugin
+
+# urlpath
+admin_urlpath: /html/template/admin
+front_urlpath: /html/template/default
+image_save_urlpath: /html/upload/save_image
+image_temp_urlpath: /html/upload/temp_image
+user_data_urlpath: /html/user_data
+plugin_urlpath: /html/plugin
